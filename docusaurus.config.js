@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Emily Allen | Technical Writer',
+  tagline: 'API and Developer Documentation',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://emily-doc-portfolio.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'emily-s-allen', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-netlify-portfolio', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -83,71 +83,54 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Emily Allen',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Emily Allen Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          {to: '/docs/portfolio', label: 'Portfolio', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/emily-s-allen',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+footer: {
+  style: 'dark',
+  links: [
+    {
+      title: 'Work',
+      items: [
+        {
+          label: 'Portfolio',
+          to: '/docs/portfolio',
+        },
+        {
+          label: 'Blog',
+          to: '/blog',
+        },
+      ],
+    },
+    {
+      title: 'Connect',
+      items: [
+        {
+          label: 'LinkedIn',
+          href: 'https://www.linkedin.com/in/esallen/',
+        },
+        {
+          label: 'GitHub',
+          href: 'https://github.com/emily-s-allen',
+        },
+      ],
+    },
+  ],
+  copyright: `Copyright © ${new Date().getFullYear()} Your Name`,
+},
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
