@@ -1,6 +1,8 @@
 ---
 id: portfolio
 title: Portfolio
+displayed_sidebar: null
+hide_table_of_contents: true
 ---
 
 # Portfolio
