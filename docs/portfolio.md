@@ -5,7 +5,7 @@ title: Portfolio
 
 # Portfolio
 
-The following projects were built as part of a self-directed effort to develop hands-on API documentation skills. I learn best by doing, so each piece was produced by running the API calls directly in Postman, testing endpoints, and documenting the actual request and response behavior. 
+The following projects were built as part of a self-directed effort to develop hands-on API documentation skills. I learn best by doing, so each piece was produced by running the API calls directly in Postman, testing endpoints, and documenting the actual request and response behavior. For more information about my portfolio, and my process and editorial choices, [view the Getting Started guide. →](https://emily-allen-portfolio.readme.io/docs/getting-started)
 
 ---
 
@@ -13,7 +13,7 @@ The following projects were built as part of a self-directed effort to develop h
 
 A documentation project covering the JSONPlaceholder REST API, a free public API commonly used for testing and prototyping. This project includes a quick start guide, authentication overview, and endpoint reference documentation covering posts, comments, and related resources. For this project, I focused on a workflow related to message board post information and GET and POST methods.
 
-[View the JSONPlaceholder documentation →](your-readme-link-here)
+[View the JSONPlaceholder documentation →](https://emily-allen-portfolio.readme.io/reference/jsonplaceholder-api-quick-start-guide)
 
 ---
 
@@ -21,7 +21,7 @@ A documentation project covering the JSONPlaceholder REST API, a free public API
 
 A documentation project covering The Movie Database (TMDb) API, a real-world entertainment data API requiring bearer token authentication. This project includes a getting started guide, authentication setup, and endpoint reference documentation covering movie search, details, and credits. For this project I focused on a workflow of finding a movie ID and using the ID to return additional information, endpoints with path and/or query parameters, and more complex responses.
 
-[View the TMDb documentation →](your-readme-link-here)
+[View the TMDb documentation →](https://emily-allen-portfolio.readme.io/reference/tmdb-authentication)
 
 ---
 
