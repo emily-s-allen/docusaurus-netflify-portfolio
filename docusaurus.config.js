@@ -129,7 +129,7 @@ footer: {
       ],
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Emily Allen`,
 },
       prism: {
         theme: prismThemes.github,
