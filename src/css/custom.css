@@ -40,3 +40,15 @@
   --dark: #0F6E56 !important;
   --light: #0F6E56 !important;
 }
+
+.table-of-contents__link {
+  color: #26215C !important;
+}
+
+.table-of-contents__link:hover {
+  color: #0F6E56 !important;
+}
+
+.table-of-contents__link--active {
+  color: #0F6E56 !important;
+}

@@ -10,6 +10,7 @@ hide_table_of_contents: true
 The following projects were built as part of a self-directed effort to develop hands-on API documentation skills. I learn best by doing, so each piece was produced by running the API calls directly in Postman, testing endpoints, and documenting the actual request and response behavior. For more information about my portfolio, and my process and editorial choices, [view the Getting Started guide. →](https://emily-allen-portfolio.readme.io/docs/getting-started)
 
 ---
+## API Documentation
 
 ## JSONPlaceholder API
 
@@ -24,6 +25,16 @@ A documentation project covering the JSONPlaceholder REST API, a free public API
 A documentation project covering The Movie Database (TMDb) API, a real-world entertainment data API requiring bearer token authentication. This project includes a getting started guide, authentication setup, and endpoint reference documentation covering movie search, details, and credits. For this project I focused on a workflow of finding a movie ID and using the ID to return additional information, endpoints with path and/or query parameters, and more complex responses.
 
 [View the TMDb documentation →](https://emily-allen-portfolio.readme.io/reference/tmdb-authentication)
+
+---
+
+## Platform Documentation
+
+### Netlify Deployment Guide
+
+A documentation project covering the process of deploying a static site from a GitHub repository to Netlify. This task-based developer guide walks through deploying the site, including build configuration, troubleshooting, and next steps.
+
+[View the Netlify Getting Started guide →](/docs/netlify-getting-started)
 
 ---
 
